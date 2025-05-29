@@ -99,17 +99,29 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-coffee-600 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-cream-200 mb-4 md:mb-0">
-              © 2024 Brew & Bean. All rights reserved.
-            </p>
-            <div className="flex space-x-6">
-              <a href="#" className="text-cream-200 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="text-cream-200 hover:text-white transition-colors">Terms of Service</a>
-              <a href="#" className="text-cream-200 hover:text-white transition-colors">Cookie Policy</a>
-            </div>
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <p className="text-cream-200 mb-4 md:mb-0">
+            © 2025 Brew & Bean. All rights reserved.
+            {" "} {/* Add a space here for separation */}
+            <span className="md:block md:mt-2 lg:inline lg:mt-0"> {/* Optional: Make "Design by" break to a new line on medium screens for better readability */}
+              Design by{" "}
+              <a
+                href="https://webcodelab.pythonanywhere.com"
+                target="_blank" // Opens the link in a new tab
+                rel="noopener noreferrer" // Recommended for security when using target="_blank"
+                className="text-cream-200 hover:text-white transition-colors underline" // Added underline for clear link indication
+              >
+                WebCodeLab
+              </a>
+            </span>
+          </p>
+          <div className="flex space-x-6">
+            <a href="#" className="text-cream-200 hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="text-cream-200 hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="text-cream-200 hover:text-white transition-colors">Cookie Policy</a>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );
