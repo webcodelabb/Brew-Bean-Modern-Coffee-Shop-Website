@@ -6,35 +6,35 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      src: "/docs/assets/coffee-shop-interior.png",
+      src: "/dist/assets/Coffee-shop-interior.png",
       alt: "Coffee shop interior"
     },
     {
-      src: "/docs/assets/barista-making-coffee.png",
+      src: "/dist/assets/Barista-making-coffee.png",
       alt: "Barista making coffee"
     },
     {
-      src: "/docs/assets/coffee-beans.png",
+      src: "/dist/assets/Coffee-beans.png",
       alt: "Coffee beans"
     },
     {
-      src: "/docs/assets/cozy-seating-area.png",
+      src: "/dist/assets/Cozy-seating-area.png",
       alt: "Cozy seating area"
     },
     {
-      src: "/docs/assets/latte-art.png",
+      src: "/dist/assets/Latte-art.png",
       alt: "Latte art"
     },
     {
-      src: "/docs/assets/coffee-roasting.png",
+      src: "/dist/assets/Coffee-roasting.png",
       alt: "Coffee roasting"
     },
     {
-      src: "/docs/assets/fresh-pastries.png",
+      src: "/dist/assets/Fresh-pastries.png",
       alt: "Fresh pastries"
     },
     {
-      src: "/docs/assets/coffee-shop-atmosphere.png",
+      src: "/dist/assets/Coffee-shop-atmosphere.png",
       alt: "Coffee shop atmosphere"
     }
   ];
