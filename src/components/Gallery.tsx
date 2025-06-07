@@ -6,35 +6,35 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3",
+      src: "/dist/assets/coffee-shop-interior.png",
       alt: "Coffee shop interior"
     },
     {
-      src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3",
+      src: "/dist/assets/barista-making-coffee.png",
       alt: "Barista making coffee"
     },
     {
-      src: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3",
+      src: "/dist/assets/coffee-beans.png",
       alt: "Coffee beans"
     },
     {
-      src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3",
+      src: "/dist/assets/cozy-seating-area.png",
       alt: "Cozy seating area"
     },
     {
-      src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3",
+      src: "/dist/assets/latte-art.png",
       alt: "Latte art"
     },
     {
-      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3",
+      src: "/dist/assets/coffee-roasting.png",
       alt: "Coffee roasting"
     },
     {
-      src: "https://images.unsplash.com/photo-1520637836862-4d197d17c50a?ixlib=rb-4.0.3",
+      src: "/dist/assets/fresh-pastries.png",
       alt: "Fresh pastries"
     },
     {
-      src: "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-4.0.3",
+      src: "/dist/assets/coffee-shop-atmosphere.png",
       alt: "Coffee shop atmosphere"
     }
   ];
