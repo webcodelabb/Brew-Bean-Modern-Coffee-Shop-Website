@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 const Gallery = () => {
@@ -53,15 +52,15 @@ const Gallery = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {galleryImages.map((image, index) => (
-            <div 
+            <div
               key={index}
               className="gallery-item aspect-square cursor-pointer"
-              data-aos="zoom-in" 
+              data-aos="zoom-in"
               data-aos-delay={index * 50}
               onClick={() => setSelectedImage(image.src)}
             >
-              <img 
-                src={image.src} 
+              <img
+                src={image.src}
                 alt={image.alt}
                 className="w-full h-full object-cover"
               />
@@ -71,17 +70,17 @@ const Gallery = () => {
 
         {/* Lightbox */}
         {selectedImage && (
-          <div 
+          <div
             className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
             onClick={() => setSelectedImage(null)}
           >
             <div className="relative max-w-4xl max-h-full">
-              <img 
-                src={selectedImage} 
+              <img
+                src={selectedImage}
                 alt="Gallery image"
                 className="max-w-full max-h-full object-contain rounded-lg"
               />
-              <button 
+              <button
                 className="absolute top-4 right-4 text-white text-3xl hover:text-cream-300 transition-colors"
                 onClick={() => setSelectedImage(null)}
               >
