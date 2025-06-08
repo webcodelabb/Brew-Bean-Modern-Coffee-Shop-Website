@@ -9,7 +9,7 @@ const Gallery = () => {
       alt: "Coffee shop interior"
     },
     {
-      src: "/https://images.stockcake.com/public/1/0/3/103f12d4-962f-454f-8e7a-3337442069ff_large/barista-making-coffee-stockcake.jpg",
+      src: "https://images.stockcake.com/public/1/0/3/103f12d4-962f-454f-8e7a-3337442069ff_large/barista-making-coffee-stockcake.jpg",
       alt: "Barista making coffee"
     },
     {
@@ -95,3 +95,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
